@@ -3,33 +3,23 @@ banner.css
 /* ===== BANNER COMPONENT ===== */
  
 .banner {
-  /* Background image with transparent gradient overlay */
   background-image:
     linear-gradient(-225deg, rgba(0,0,0,0.8) 0%, rgba(0,0,0,0.1) 50%),
     url('../../images/background.jpg');
- 
-  /* Make the image cover the entire banner div */
   background-size: cover;
- 
-  /* Center the background image */
   background-position: center;
- 
-  /* Padding top/bottom as recommended */
   padding: 150px 0;
 }
  
-/* Descendant selectors for h1 inside banner */
 .banner h1 {
   color: white;
   font-size: 50px;
-  margin-bottom: 16px;
 }
  
-/* Descendant selectors for h2 inside banner */
 .banner h2 {
   color: white;
   font-size: 30px;
   font-weight: lighter;
   opacity: 0.8;
-  margin-bottom: 32px;
 }
+ 
