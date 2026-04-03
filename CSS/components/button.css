@@ -1,7 +1,5 @@
-button.css
-
 /* ===== BUTTON COMPONENT ===== */
- 
+
 .btn-blue {
   background-color: #6c63ff;
   color: white;
@@ -10,12 +8,10 @@ button.css
   font-size: 16px;
   font-family: 'Roboto', sans-serif;
   font-weight: 500;
-  cursor: pointer;
   text-decoration: none;
   display: inline-block;
 }
- 
+
 .btn-blue:hover {
   background-color: #5a52d5;
 }
- 
