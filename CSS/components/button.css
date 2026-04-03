@@ -5,7 +5,6 @@ button.css
 .btn-blue {
   background-color: #6c63ff;
   color: white;
-  border: none;
   border-radius: 6px;
   padding: 14px 28px;
   font-size: 16px;
@@ -14,15 +13,9 @@ button.css
   cursor: pointer;
   text-decoration: none;
   display: inline-block;
-  transition: background-color 0.2s ease, transform 0.1s ease;
-  letter-spacing: 0.5px;
 }
  
 .btn-blue:hover {
   background-color: #5a52d5;
-  transform: translateY(-1px);
 }
  
-.btn-blue:active {
-  transform: translateY(0px);
-}
