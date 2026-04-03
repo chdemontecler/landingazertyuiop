@@ -1,21 +1,18 @@
-avatar.css
-
 /* ===== AVATAR COMPONENT ===== */
- 
+
 .avatar {
   width: 60px;
   height: 60px;
   border-radius: 50%;
   object-fit: cover;
 }
- 
+
 .avatar-large {
   width: 100px;
   height: 100px;
 }
- 
+
 .avatar-small {
   width: 40px;
   height: 40px;
 }
-
